@@ -12,6 +12,7 @@ body {
     margin: 0;
     text-align: center;
     font-family: 'Oswald', sans-serif;
+    background: linear-gradient(40deg, #DB504A, #43AA8B);
 }
 
 img {
