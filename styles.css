@@ -1,0 +1,140 @@
+/**
+Palette: https://scrimba.com/links/hometown-palette
+RED: #E63946
+LIGHT: #F1FAEE
+AQUA: #A8DADC
+LIGHT BLUE: #457B9D
+DARK BLUE: #1D3557
+
+*/
+
+body {
+    margin: 0;
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+}
+
+img {
+    width: 100px;
+}
+
+#hero-section {
+    background-image: url(images/dawid-zawila-9bfoG1hxFyQ-unsplash.jpg);
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 800px;
+    text-shadow: 0 0 5px black; 
+}
+
+.hero-header {
+    color: white;
+    padding: 6px 12px;
+    border-radius: 10px;
+}
+
+#Torshov {
+    background: #DB504A;
+    width: 200px;
+    margin-bottom: 0;
+}
+
+#Hero-h2 {
+    background: #43AA8B;
+    padding: 8px 28px;
+    width: 400px; 
+}
+
+#activities-section {
+    background: #DB504A;
+    display: flex;
+    line-height: 18px;
+    padding: 40px;
+    color: whitesmoke;
+    text-shadow: 0 0 5px black; 
+    justify-content: center;
+}
+
+.img-styling {
+    border-radius: 50%;
+    width: 100px;
+}
+
+#theatre {
+   margin: 0 30px;
+}
+
+#guide-section {
+    height: 300px;
+    width: 400px;
+    background: #254441;  
+    border-radius: 10px;
+    display: flex;
+    color: #1D3557;
+    margin: 50px auto;
+    box-shadow: 0px 6px 0px #DB504A;
+    align-items: center;
+    padding: 5px;
+    color: white;
+    text-shadow: 0 0 5px black;
+}
+
+#Per {
+    width: 180px;
+    height: 250px;
+    border-radius: 15px;
+    padding: 10px;
+}
+
+#guide-section:hover {
+    background: #B2B09B;
+    transition: background 1s;
+}
+
+#list-section {
+    display: flex;
+    flex-direction: column;
+}
+
+.list {
+    display: flex;
+    padding: 20px; 
+    background: #43AA8B;
+    align-items: center;
+    color: white;
+    text-shadow: 0 0 5px black; 
+    justify-content: center;
+    width: 100%;
+    margin: 0px auto;
+    justify-content: space-evenly;
+}
+
+.list:hover {
+    background: #254441;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #FF6F59;
+}
+
+.list-section-paragraph {
+    background: #43AA8B;
+    border-radius: 10px;
+    color: white;
+    text-shadow: 0 0 5px black;
+    margin: 20px auto;;
+    padding: 20px;
+    line-height: 30px;
+    width: 80%;
+}
+
+#list-section {
+    border-radius: 20px;
+}
