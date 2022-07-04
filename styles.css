@@ -89,9 +89,12 @@ img {
     padding: 10px;
 }
 
+#guide-section {
+    transition: background 1s;
+}
+
 #guide-section:hover {
     background: #B2B09B;
-    transition: background 1s;
 }
 
 #list-section {
@@ -130,7 +133,7 @@ a:hover {
     border-radius: 10px;
     color: white;
     text-shadow: 0 0 5px black;
-    margin: 20px auto;;
+    margin: 20px auto;
     padding: 20px;
     line-height: 30px;
     width: 80%;
