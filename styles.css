@@ -12,7 +12,7 @@ body {
     margin: 0;
     text-align: center;
     font-family: 'Oswald', sans-serif;
-    background: linear-gradient(40deg, #DB504A, #43AA8B);
+    background: linear-gradient(#DB504A, #43AA8B);
 }
 
 img {
@@ -102,7 +102,7 @@ img {
 .list {
     display: flex;
     padding: 20px; 
-    background: #43AA8B;
+    background: #254441;
     align-items: center;
     color: white;
     text-shadow: 0 0 5px black; 
@@ -110,10 +110,6 @@ img {
     width: 100%;
     margin: 0px auto;
     justify-content: center;
-}
-
-.list:hover {
-    background: #254441;
 }
 
 a {
