@@ -119,6 +119,7 @@ img {
 a {
     color: white;
     text-decoration: none;
+    transition: color 1s;
 }
 
 a:hover {
