@@ -12,7 +12,7 @@ body {
     margin: 0;
     text-align: center;
     font-family: 'Oswald', sans-serif;
-    background: linear-gradient(#DB504A, #43AA8B);
+    background: linear-gradient(#DB504A, #e1b9b9);
 }
 
 img {
@@ -106,7 +106,7 @@ img {
     align-items: center;
     color: white;
     text-shadow: 0 0 5px black; 
-    justify-content: center;
+    justify-content: space-between;
     width: 100%;
     margin: 0px auto;
     justify-content: center;
